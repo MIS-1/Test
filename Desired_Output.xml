@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<root>
+    
+	<GroundInfantry Name="Scout_Trooper_No_Bike">
+	
+	
+	
+		<__Code_Block_Description />
+
+		<Text_ID>TEXT_UNIT_SCOUT_TROOPER</Text_ID>
+		<Affiliation>Empire, First_Order, Separatist_Alliance, Sith_Empire, Resistance, Galactic_Republic, Old_Republic</Affiliation>
+		<Moniker></Moniker>
+		<Is_Named_Hero></Is_Named_Hero>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SCOUTTROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Good_Against>Rebel_Trooper Plex_Soldier Underworld_Merc</Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To>MPTL Rebel_Infiltrator Destroyer_Droid</Encyclopedia_Vulnerable_To>
+        <Property_Flags></Property_Flags>
+		
+		<Movie_Object></Movie_Object>
+		<IsBuildable></IsBuildable>
+		<Build_Time_Seconds></Build_Time_Seconds>
+		<Political_Control>0</Political_Control>
+		
+		<CategoryMask>infantry</CategoryMask>
+		<Icon_Name>i_button_storm_trooper.tga</Icon_Name>
+		<Victory_Relevant>yes</Victory_Relevant>
+		
+		<Build_Cost_Credits></Build_Cost_Credits>
+		<Score_Cost_Credits>0</Score_Cost_Credits>
+		
+		<GUI_Bracket_Width></GUI_Bracket_Width>
+	    <GUI_Bracket_Height></GUI_Bracket_Height>
+		<GUI_Bracket_Size></GUI_Bracket_Size>
+		
+		<Required_Timeline></Required_Timeline>
+
+      	<UnitCollisionClass>infantry</UnitCollisionClass>
+		<Custom_Hard_XExtent>2</Custom_Hard_XExtent>
+		<Custom_Hard_YExtent>2</Custom_Hard_YExtent>
+		
+		<LOD_Bias>5</LOD_Bias>
+		<Tactical_Bribe_Cost>10</Tactical_Bribe_Cost>
+		<Tactical_Build_Cost_Multiplayer></Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds></Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue></Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player></Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player></Build_Limit_Lifetime_Per_Player>
+		
+		<Is_Visible_On_Radar></Is_Visible_On_Radar>
+		
+		<Influences_Capture_Point></Influences_Capture_Point>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+        <Ground_Infantry_Turret_Target>yes</Ground_Infantry_Turret_Target>
+		
+		<Is_Squashable>yes</Is_Squashable>
+		<Is_Squashable_By_Supercrusher></Is_Squashable_By_Supercrusher>
+		
+		<Is_Combustible></Is_Combustible>
+		<On_Fire_Speed_Modifier></On_Fire_Speed_Modifier>
+		<Targeting_Allowed_When_Burning></Targeting_Allowed_When_Burning>
+		<Burning_Damage_Per_Second></Burning_Damage_Per_Second>
+		
+		<Conversion_Ability_Changes_To_Enemy>Scout_Trooper_No_Bike_Converted_To_Enemy</Conversion_Ability_Changes_To_Enemy>
+		
+		<Destruction_Survivors></Destruction_Survivors>
+		
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			,
+			Urban, 				,
+			Arctic, 			,
+			Volcanic, 			,
+			Desert, 			,
+			Forest, 			,
+			Swamp, 				
+		</Land_Terrain_Model_Mapping>
+	
+		
+		
+		<__Code_Block_Selection />
+
+		<Land_Model_Name>EI_BIKER.ALO</Land_Model_Name>
+		<Death_Clone></Death_Clone>
+		<Scale_Factor>1</Scale_Factor>
+		<Select_Box_Scale>27</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Ranged_Target_Z_Adjust>7</Ranged_Target_Z_Adjust>
+		
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		
+		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
+		
+		<Mouse_Collide_Override_Sphere_Radius>10</Mouse_Collide_Override_Sphere_Radius>
+		
+		<Specific_Death_Anim_Type></Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index></Specific_Death_Anim_Index>
+		
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Death_Persistence_Duration>0</Death_Persistence_Duration>
+		
+		
+		
+		<!-- Movement Code Block -->
+		<Weather_Category>infantry</Weather_Category>
+		<MovementClass>infantry</MovementClass>
+		<Garrison_Category>infantry</Garrison_Category>
+		<Space_Layer>land</Space_Layer>
+		<Mass>1</Mass>
+		<Max_Speed>1</Max_Speed>
+		<Min_Speed></Min_Speed>
+		<Min_Speed_Fraction_For_Turn></Min_Speed_Fraction_For_Turn>
+		<LateralAcceleration></LateralAcceleration>
+		<OverrideAcceleration>0.05</OverrideAcceleration>
+		<OverrideDeceleration>0.05</OverrideDeceleration>
+		<Movement_Animation_Speed>0.8</Movement_Animation_Speed>
+		<Max_Rate_Of_Turn>20</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Roll></Max_Rate_Of_Roll>
+		<Bank_Turn_Angle></Bank_Turn_Angle>
+		
+		<Pause_During_Cinematic_Anim></Pause_During_Cinematic_Anim>
+		<Cinematic_Anim_Speed></Cinematic_Anim_Speed> 
+		<Cinematic_Anim_Blend_Seconds></Cinematic_Anim_Blend_Seconds>
+		<Cinematic_Anim_Index></Cinematic_Anim_Index>
+		
+		<Type>walk</Type>
+		<Stealth_Capable>no</Stealth_Capable>
+		<Deploys>no</Deploys>
+		<Auto_Deploys></Auto_Deploys>
+		
+		<Is_Affected_By_Gravity_Control_Field></Is_Affected_By_Gravity_Control_Field>
+		
+		<OccupationStyle>1x1</OccupationStyle>
+		<CanCellStack>yes</CanCellStack>
+		<Land_Model_Anim_Override_Name>EI_TROOPER.ALO</Land_Model_Anim_Override_Name>
+		<Loop_Idle_Anim_00>no</Loop_Idle_Anim_00>
+		
+		<MaxJiggleDistance></MaxJiggleDistance>
+		
+		<Walk_Transition></Walk_Transition>
+		<Walk_Animation_Speed></Walk_Animation_Speed>
+		<Crouch_Animation_Speed></Crouch_Animation_Speed>
+		<Rotation_Animation_Speed></Rotation_Animation_Speed>
+		
+		<Custom_Soft_Footprint_Radius>3.5</Custom_Soft_Footprint_Radius>
+		<MinimumPushReturnDistance>10</MinimumPushReturnDistance>
+		
+		<FormationGrouping></FormationGrouping>
+		<FormationSpacing>0.5</FormationSpacing>
+		<FormationRaggedness></FormationRaggedness>
+		<Formation_Formup_Wait_Style></Formation_Formup_Wait_Style>
+		<WaitsForFormationFormup></WaitsForFormationFormup>
+		
+        <Can_Indigenous_Unit_Stop></Can_Indigenous_Unit_Stop>
+        <Close_Enough_Angle_For_Move_Start></Close_Enough_Angle_For_Move_Start>
+		
+		<Wind_Disturbance_Radius></Wind_Disturbance_Radius>
+		<Wind_Disturbance_Strength></Wind_Disturbance_Strength>
+		<Wind_Disturbance_Sphere_Alpha></Wind_Disturbance_Sphere_Alpha>
+        
+		<Presence_Induced_Animations>
+			Attention, 
+				Emperor_Palpatine,
+				Darth_Vader,
+		</Presence_Induced_Animations>
+		
+		
+		
+		<__Code_Block_Defense />
+
+		<Armor_Type>Armor_Infantry</Armor_Type>
+		
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>15</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		
+		<Land_FOW_Reveal_Range>150</Land_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier></Dense_FOW_Reveal_Range_Multiplier>
+
+		<Sensor_Range>20</Sensor_Range>
+
+		<Land_Damage_Thresholds></Land_Damage_Thresholds>
+		<Land_Damage_Alternates></Land_Damage_Alternates>
+		
+		<Surface_Type_Cover_Damage_Shield>0.5</Surface_Type_Cover_Damage_Shield>
+		
+		
+		
+		<__Code_Block_Offense />
+
+		<Damage>1</Damage>
+		<Projectile_Damage></Projectile_Damage>
+		<AI_Combat_Power>7</AI_Combat_Power>
+		<Behavior>SELECTABLE</Behavior>
+		<LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, GARRISON_UNIT</LandBehavior>
+		
+		<Create_Team></Create_Team>
+		
+		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
+		<Target_Stealth_Units></Target_Stealth_Units>
+		<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Max_Attack_Distance>150</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance></Targeting_Min_Attack_Distance>
+
+		<Targeting_Fire_Inaccuracy>Infantry, 2.5</Targeting_Fire_Inaccuracy> 
+		<Targeting_Fire_Inaccuracy>Vehicle, 5.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Air, 70.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Structure, 10.0</Targeting_Fire_Inaccuracy>
+		
+		<Is_Stationary_When_Attacking></Is_Stationary_When_Attacking>
+
+		<Turret_Rotate_Extent_Degrees></Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees></Turret_Elevate_Extent_Degrees>
+		
+		<Fire_Category_Restrictions></Fire_Category_Restrictions>
+
+		<Projectile_Types>Proj_Hand_Blaster_Red</Projectile_Types>
+		<Projectile_Fire_Pulse_Count></Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds></Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>1</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Appearance_Delay_Frames></Projectile_Appearance_Delay_Frames>
+		
+		<HardPoints> 
+				
+		</HardPoints>
+		
+		<FormationOrder>2</FormationOrder>
+		<Size_Value>10</Size_Value>
+		
+		<Is_Force_Sensitive></Is_Force_Sensitive>
+		
+		<Collidable_By_Projectile_Living>yes</Collidable_By_Projectile_Living>
+		
+		<Guard_Chase_Range>200</Guard_Chase_Range>
+		<Idle_Chase_Range>50</Idle_Chase_Range>
+		<Attack_Move_Response_Range>150</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker></Autonomous_Move_Extension_Vs_Attacker>
+
+
+		
+		<__Code_Block_Ambient />
+
+		<SFXEvent_Build_Started></SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled></SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
+		
+		<SFXEvent_Tactical_Build_Started></SFXEvent_Tactical_Build_Started>		
+		<SFXEvent_Tactical_Build_Complete></SFXEvent_Tactical_Build_Complete>		
+		<SFXEvent_Tactical_Build_Cancelled></SFXEvent_Tactical_Build_Cancelled>
+		
+		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
+		
+		<Play_SFXEvent_On_Sighting></Play_SFXEvent_On_Sighting>
+		<SFXEvent_Ambient_Loop></SFXEvent_Ambient_Loop>
+		
+		<SFXEvent_Engine_Moving_Loop></SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop></SFXEvent_Engine_Cinematic_Focus_Loop>
+		
+		<SFXEvent_Ambient_Moving></SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds></SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds></SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		
+		<SFXEvent_Fire>Unit_Storm_Trooper_Fire</SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_Scout_Trooper</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Scout_Trooper</SFXEvent_Move>
+		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Scout_Trooper</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Scout_Trooper</SFXEvent_Guard>
+
+		<SFXEvent_Assist_Move>Unit_Assist_Move_Scout_Trooper</SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Scout_Trooper</SFXEvent_Assist_Attack>
+		
+		<Land_Damage_SFX></Land_Damage_SFX>
+
+		<SFXEvent_Health_Low_Warning></SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning></SFXEvent_Health_Critical_Warning>
+		
+        <SFXEvent_Cough_Override></SFXEvent_Cough_Override>
+
+		<Base_Shield_Penetration_Particle></Base_Shield_Penetration_Particle>
+		
+		<Death_Explosions></Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_Stormtrooper_2_Death</Death_SFXEvent_Start_Die>
+		<Selt_Destruct_SFXEvent_Start_Die></Selt_Destruct_SFXEvent_Start_Die>
+		
+		
+		
+		<__Code_Block_Abilities />
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+		
+			<Unit_Ability>
+
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>
+
+			</Unit_Ability>
+			
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			
+		</Abilities>
+		
+		
+
+	</GroundInfantry>
+    
+</root>
